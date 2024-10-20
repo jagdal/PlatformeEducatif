@@ -243,7 +243,7 @@
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="9.0" layoutX="15.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="64.0" />
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="9.0" layoutX="15.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="36.0" />
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="9.0" layoutX="61.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="22.0" />
-                        <Circle fill="WHITE" layoutX="128.0" layoutY="98.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Circle fill="WH ITE" layoutX="128.0" layoutY="98.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
                      </children>
                   </AnchorPane>
                   <AnchorPane layoutX="185.0" layoutY="220.0" prefHeight="126.0" prefWidth="173.0" style="-fx-background-color: fc6b58; -fx-background-radius: 20;">
