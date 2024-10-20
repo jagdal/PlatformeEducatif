@@ -20,4 +20,5 @@ public class SignUp {
     public void signUpButton(ActionEvent event) {
         error.setText("your email or password is incorect , pleas try again");
     }
+
 }
