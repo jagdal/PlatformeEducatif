@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1359.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemple.platformeeducatif.Settings">
+   <children>
+      <AnchorPane prefHeight="850.0" prefWidth="247.0" style="-fx-background-color: fafafa;" />
+      <Label layoutX="310.0" layoutY="54.0" prefHeight="33.0" prefWidth="179.0" text="Settings">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="139.0" prefHeight="49.0" prefWidth="411.0" text="Email address :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="427.0" layoutY="269.0" prefHeight="49.0" prefWidth="411.0" text="Password">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="429.0" layoutY="400.0" prefHeight="49.0" prefWidth="411.0" text="Email Notifications">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="424.0" layoutY="200.0" prefHeight="48.0" prefWidth="680.0" promptText="here we will do email personn" />
+      <TextField layoutX="423.0" layoutY="329.0" prefHeight="48.0" prefWidth="680.0" promptText="here we will do email personn" />
+      <Label layoutX="431.0" layoutY="432.0" prefHeight="36.0" prefWidth="418.0" text="Receive email Notifications" textFill="#a3a3a3" />
+      <Label layoutX="432.0" layoutY="479.0" prefHeight="49.0" prefWidth="411.0" text="Email Notifications">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="434.0" layoutY="511.0" prefHeight="36.0" prefWidth="418.0" text="Receive email Notifications" textFill="#a3a3a3" />
+      <Label layoutX="434.0" layoutY="555.0" prefHeight="49.0" prefWidth="411.0" text="Email Notifications">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="426.0" layoutY="587.0" prefHeight="36.0" prefWidth="418.0" text="Receive email Notifications" textFill="#a3a3a3" />
+      <CheckBox layoutX="799.0" layoutY="411.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="110.0" text="CheckBox" />
+   </children>
+</AnchorPane>

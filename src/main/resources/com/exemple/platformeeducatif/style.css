@@ -1,0 +1,15 @@
+#courseOne
+{
+
+}
+#logout , #settings{
+    -fx-background-color: #fafafa;
+    -fx-font-size: 22px;
+    -fx-border-style: none;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+#idCourseOne , #idCourseTwo , #idCourseThree{
+    -fx-cursor: hand;
+}
+
