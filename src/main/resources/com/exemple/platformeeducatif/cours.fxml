@@ -1,14 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.exemple.platformeeducatif.Cours"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1359.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="850.0" prefWidth="232.0" style="-fx-background-color: white;" />
+      <AnchorPane prefHeight="850.0" prefWidth="1134.0">
+         <children>
+            <HBox prefHeight="98.0" prefWidth="1131.0" style="-fx-background-color: red;" />
+            <HBox layoutX="37.0" layoutY="154.0" prefHeight="263.0" prefWidth="1025.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
+               <children>
+                  <AnchorPane prefHeight="263.0" prefWidth="1049.0">
+                     <children>
+                        <Label layoutX="381.0" layoutY="43.0" prefHeight="35.0" prefWidth="352.0" text="This is Cours" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="274.0" fitWidth="279.0" layoutX="56.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/a.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox layoutX="37.0" layoutY="447.0" prefHeight="403.0" prefWidth="1025.0" style="-fx-background-color: gray; -fx-background-radius: 20;">
+               <children>
+                  <AnchorPane prefHeight="402.0" prefWidth="1115.0">
+                     <children>
+                        <Pane layoutX="37.0" layoutY="25.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red; -fx-background-radius: 10;" />
+                        <Pane layoutX="432.0" layoutY="25.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red; -fx-background-radius: 10;" />
+                        <Pane layoutX="802.0" layoutY="25.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red; -fx-background-radius: 10;" />
+                        <Pane layoutX="37.0" layoutY="224.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red; -fx-background-radius: 10;" />
+                        <Pane layoutX="432.0" layoutY="224.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red;" />
+                        <Pane layoutX="802.0" layoutY="224.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red;" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
