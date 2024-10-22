@@ -14,7 +14,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1359.0" style="-fx-border-radius: 10;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemple.platformeeducatif.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1359.0" style="-fx-border-radius: 10;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemple.platformeeducatif.HelloController">
    <children>
       <AnchorPane prefHeight="850.0" prefWidth="232.0" style="-fx-background-color: fafafa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -104,7 +104,7 @@
                </image>
             </ImageView>
             <Button fx:id="logout" layoutX="55.0" layoutY="657.0" mnemonicParsing="false" onAction="#siwtchToSignUp" prefHeight="31.0" prefWidth="111.0" styleClass="logout" stylesheets="@style.css" text="logout" underline="true" />
-            <Button fx:id="settings" layoutX="56.0" layoutY="496.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="Settings" />
+            <Button fx:id="settings" layoutX="52.0" layoutY="495.0" mnemonicParsing="false" onAction="#siwtchToSettings" prefHeight="31.0" prefWidth="88.0" text="Settings" />
          </children>
       </AnchorPane>
       <Group layoutX="478.0" layoutY="16.0" />
@@ -243,7 +243,7 @@
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="9.0" layoutX="15.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="64.0" />
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="9.0" layoutX="15.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="36.0" />
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="9.0" layoutX="61.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="22.0" />
-                        <Circle fill="WH ITE" layoutX="128.0" layoutY="98.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Circle fill="WHITE" layoutX="128.0" layoutY="98.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
                      </children>
                   </AnchorPane>
                   <AnchorPane layoutX="185.0" layoutY="220.0" prefHeight="126.0" prefWidth="173.0" style="-fx-background-color: fc6b58; -fx-background-radius: 20;">
