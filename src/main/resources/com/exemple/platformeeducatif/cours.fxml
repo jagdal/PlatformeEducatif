@@ -15,11 +15,11 @@
       <AnchorPane prefHeight="850.0" prefWidth="1134.0">
          <children>
             <HBox prefHeight="98.0" prefWidth="1131.0" style="-fx-background-color: red;" />
-            <HBox layoutX="37.0" layoutY="154.0" prefHeight="263.0" prefWidth="1025.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
+            <HBox layoutX="44.0" layoutY="108.0" prefHeight="210.0" prefWidth="1025.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
                <children>
-                  <AnchorPane prefHeight="263.0" prefWidth="1049.0">
+                  <AnchorPane prefHeight="182.0" prefWidth="1025.0">
                      <children>
-                        <Label layoutX="381.0" layoutY="43.0" prefHeight="35.0" prefWidth="352.0" text="This is Cours" textFill="WHITE">
+                        <Label layoutX="381.0" layoutY="43.0" prefHeight="35.0" prefWidth="352.0" text=" Les Coures" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="36.0" />
                            </font>
@@ -29,20 +29,100 @@
                               <Image url="@image/a.png" />
                            </image>
                         </ImageView>
+                        <Pane fx:id="div1" layoutX="372.0" layoutY="75.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: #0081a7; -fx-background-radius: 10;">
+                           <children>
+                              <Label layoutX="38.0" layoutY="148.0" prefHeight="32.0" prefWidth="255.0" text="Changement climatique" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="22.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="80.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/d.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
                      </children>
                   </AnchorPane>
                </children>
             </HBox>
-            <HBox layoutX="37.0" layoutY="447.0" prefHeight="403.0" prefWidth="1025.0" style="-fx-background-color: gray; -fx-background-radius: 20;">
+            <HBox layoutX="37.0" layoutY="410.0" prefHeight="431.0" prefWidth="1039.0">
                <children>
                   <AnchorPane prefHeight="402.0" prefWidth="1115.0">
                      <children>
-                        <Pane layoutX="37.0" layoutY="25.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red; -fx-background-radius: 10;" />
-                        <Pane layoutX="432.0" layoutY="25.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red; -fx-background-radius: 10;" />
-                        <Pane layoutX="802.0" layoutY="25.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red; -fx-background-radius: 10;" />
-                        <Pane layoutX="37.0" layoutY="224.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red; -fx-background-radius: 10;" />
-                        <Pane layoutX="432.0" layoutY="224.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red;" />
-                        <Pane layoutX="802.0" layoutY="224.0" prefHeight="154.0" prefWidth="200.0" style="-fx-background-color: red;" />
+                        <Pane layoutX="344.0" layoutY="14.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-background-radius: 10;">
+                           <children>
+                              <Label layoutX="71.0" layoutY="148.0" prefHeight="32.0" prefWidth="216.0" text="pollution marine" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="22.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="90.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/e.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="685.0" layoutY="14.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-background-radius: 10;">
+                           <children>
+                              <Label layoutX="57.0" layoutY="148.0" prefHeight="32.0" prefWidth="216.0" text="L'érosion des rivages" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="22.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="90.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/f.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="div3" layoutY="223.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-background-radius: 10;" />
+                        <Pane layoutX="344.0" layoutY="223.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-background-radius: 10;" styleClass="div2">
+                           <children>
+                              <Label layoutX="50.0" layoutY="148.0" text="Tempêtes et ouragans" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="22.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="685.0" layoutY="223.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-background-radius: 10;">
+                           <children>
+                              <Label layoutX="76.0" layoutY="148.0" prefHeight="17.0" prefWidth="179.0" text="Montée des eaux" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="22.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="91.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/i.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <ImageView fitHeight="194.0" fitWidth="375.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/n.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="87.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/t.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="115.0" layoutY="169.0" prefHeight="17.0" prefWidth="195.0" text="Séismes et volcans" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="187.0" fitWidth="274.0" layoutX="211.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/h.png" />
+                           </image>
+                        </ImageView>
                      </children>
                   </AnchorPane>
                </children>
