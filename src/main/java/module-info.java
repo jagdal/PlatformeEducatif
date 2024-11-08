@@ -11,7 +11,9 @@ module com.exemple.platformeeducatif {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires java.desktop;
+    requires java.sql;
 
     opens com.exemple.platformeeducatif to javafx.fxml;
     exports com.exemple.platformeeducatif;
+
 }
