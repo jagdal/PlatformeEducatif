@@ -1,6 +1,4 @@
  package com.exemple.platformeeducatif;
-
-
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -15,6 +13,8 @@ import java.io.IOException;
 
  public class HelloController {
 
+     public Button settings;
+     public Button logout;
      @FXML
      private Button courseOne;
      @FXML
@@ -27,12 +27,28 @@ import java.io.IOException;
      private ImageView imageSearch;
      @FXML
      private Button button;
+     @FXML
+     private Button dashboard;
+     @FXML
+     private Button causes;
+     @FXML
+     private Button solution;
+     @FXML
+     private Button courses;
+     @FXML
+     private Button Quiz;
+     @FXML
+     private Button Group;
+     @FXML
+     private Button members;
+     @FXML
+     private Button Settings;
 
 
      //switch to part couse in page d'acceuil
-     public void viewCouseOne(ActionEvent event) throws IOException {
+     public void viewCourse(ActionEvent event) throws IOException {
          // Load the second scene FXML file
-         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("course1.fxml"));
+         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("cours.fxml"));
          Scene scene = new Scene(fxmlLoader.load());
          Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
          stage.setScene(scene);
@@ -57,9 +73,6 @@ import java.io.IOException;
          stage.setScene(scene);
          stage.show();
      }
-     // switch label
-     Label dashboard;
-
 
      //switch to settings page
      public void siwtchToSettings(ActionEvent event) throws IOException {

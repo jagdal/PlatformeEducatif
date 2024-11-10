@@ -1,5 +1,5 @@
 package com.exemple.platformeeducatif;
 
-public class Settings {
+public class Login {
 
 }

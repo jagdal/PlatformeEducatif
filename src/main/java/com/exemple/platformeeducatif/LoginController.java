@@ -54,7 +54,14 @@ public class LoginController {
         alert.setContentText(message);
         alert.showAndWait();
     }
-
+    public void siwtchToSignUp(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("signup.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
+        stage.setTitle("SignUp!");
+        stage.setScene(scene);
+        stage.show();
+    }
     public Button getLoginButton() {
         return loginButton;
     }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
@@ -59,12 +60,12 @@
       </HBox>
       <AnchorPane layoutX="663.0" layoutY="192.0" prefHeight="55.0" prefWidth="640.0">
          <children>
-            <TextField layoutX="-3.0" layoutY="15.0" prefHeight="25.0" prefWidth="265.0">
+            <TextField fx:id="name" layoutX="-3.0" layoutY="15.0" prefHeight="25.0" prefWidth="265.0">
                <font>
                   <Font size="19.0" />
                </font>
             </TextField>
-            <TextField fx:id="" layoutX="317.0" layoutY="16.0" prefHeight="25.0" prefWidth="265.0">
+            <TextField fx:id="username" layoutX="317.0" layoutY="16.0" prefHeight="25.0" prefWidth="265.0">
                <font>
                   <Font size="19.0" />
                </font>
@@ -102,7 +103,7 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Button layoutX="824.0" layoutY="564.0" mnemonicParsing="false" onAction="#signUpButton" prefHeight="47.0" prefWidth="254.0" style="-fx-background-color: #57baab; -fx-background-radius: 10px; -fx-cursor: hand;" text="Sign Up" textFill="WHITE">
+      <Button layoutX="824.0" layoutY="564.0" mnemonicParsing="false" onAction="#handleSignup" prefHeight="47.0" prefWidth="254.0" style="-fx-background-color: #57baab; -fx-background-radius: 10px; -fx-cursor: hand;" text="Sign Up" textFill="WHITE">
          <font>
             <Font size="22.0" />
          </font>
@@ -140,10 +141,13 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="1231.0" layoutY="32.0" text="Sign in" textFill="#308dea">
+      <Button cacheShape="false" cancelButton="true" centerShape="false" defaultButton="true" focusTraversable="false" layoutX="1232.0" layoutY="27.0" mnemonicParsing="false" onAction="#swithToLogin" prefHeight="36.0" prefWidth="81.0" scaleShape="false" style="-fx-background-color: none;" text="sign in" textFill="#308dea">
          <font>
             <Font size="16.0" />
          </font>
-      </Label>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
    </children>
 </AnchorPane>

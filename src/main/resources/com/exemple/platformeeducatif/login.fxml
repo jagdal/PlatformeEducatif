@@ -77,11 +77,6 @@
                 <Font size="22.0" />
             </font>
         </Button>
-        <Label fx:id="error" layoutX="739.0" layoutY="629.0" prefHeight="31.0" prefWidth="480.0" textFill="#d43b3b">
-            <font>
-                <Font size="21.0" />
-            </font>
-        </Label>
         <Label layoutX="871.0" layoutY="564.0" prefHeight="24.0" prefWidth="191.0" text="or login up with">
             <font>
                 <Font size="20.0" />
@@ -105,15 +100,15 @@
                 <Font name="System Bold" size="30.0" />
             </font>
         </Label>
-        <Label layoutX="1231.0" layoutY="32.0" prefHeight="25.0" prefWidth="70.0" text="Sign Up" textFill="#308dea">
-            <font>
-                <Font size="16.0" />
-            </font>
-        </Label>
       <Label fx:id="error" layoutX="736.0" layoutY="725.0" prefHeight="39.0" prefWidth="514.0" textFill="#ff4040">
          <font>
             <Font size="22.0" />
          </font>
       </Label>
+      <Button layoutX="1202.0" layoutY="30.0" mnemonicParsing="false" onAction="#siwtchToSignUp" style="-fx-background-color: none; -fx-cursor: hand;" text="Sign Up" textFill="#308dea">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
     </children>
 </AnchorPane>

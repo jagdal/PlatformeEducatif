@@ -12,4 +12,8 @@
 #idCourseOne , #idCourseTwo , #idCourseThree{
     -fx-cursor: hand;
 }
+#Causes , #courses , #solution , #causes , #members , #Group , #Quiz {
+    -fx-cursor: hand;
+    -fx-background-color: #fafafa;
 
+}
