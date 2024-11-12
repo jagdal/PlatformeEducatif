@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="850.0" prefWidth="1359.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemple.platformeeducatif.MemberController">
+    <TableView fx:id="tableView" prefHeight="850.0" prefWidth="973.0">
+        <columns>
+            <TableColumn fx:id="usernameColumn" prefWidth="221.33333837985992" text="Username" />
+            <TableColumn fx:id="nameColumn" minWidth="0.0" prefWidth="191.33335876464844" text="Name" />
+            <TableColumn fx:id="emailColumn" prefWidth="475.9999694824219" text="Email" />
+            <TableColumn fx:id="roleColumn" minWidth="0.0" prefWidth="294.66668701171875" text="Role" />
+        </columns>
+    </TableView>
+</VBox>

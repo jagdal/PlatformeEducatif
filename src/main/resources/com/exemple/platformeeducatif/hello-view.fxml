@@ -75,27 +75,27 @@
                <font>
                   <Font size="20.0" />
                </font></Button>
-            <Button fx:id="causes" layoutX="21.0" layoutY="216.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="129.0" style="-fx-background-color: none;" text="Causes">
+            <Button fx:id="causes" layoutX="21.0" layoutY="216.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="129.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Causes">
                <font>
                   <Font size="18.0" />
                </font></Button>
-            <Button fx:id="solution" layoutX="21.0" layoutY="257.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="129.0" style="-fx-background-color: none;" text="Solution">
+            <Button fx:id="solution" layoutX="21.0" layoutY="257.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="129.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Solution">
                <font>
                   <Font size="20.0" />
                </font></Button>
-            <Button fx:id="courses" layoutX="31.0" layoutY="309.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="122.0" style="-fx-background-color: none;" text="Courses">
+            <Button fx:id="courses" layoutX="31.0" layoutY="307.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="122.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Courses">
                <font>
                   <Font size="20.0" />
                </font></Button>
-            <Button fx:id="Quiz" layoutX="16.0" layoutY="354.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="122.0" style="-fx-background-color: none;" text="Quiz">
+            <Button fx:id="Quiz" layoutX="16.0" layoutY="352.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="122.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Quiz">
                <font>
                   <Font size="20.0" />
                </font></Button>
-            <Button fx:id="Group" layoutX="23.0" layoutY="400.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="163.0" style="-fx-background-color: none;" text="Group Chat">
+            <Button fx:id="Group" layoutX="23.0" layoutY="398.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="163.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Group Chat">
                <font>
                   <Font size="20.0" />
                </font></Button>
-            <Button fx:id="members" layoutX="33.0" layoutY="450.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="122.0" style="-fx-background-color: none;" text="Members">
+            <Button fx:id="members" layoutX="33.0" layoutY="450.0" mnemonicParsing="false" onAction="#siwtchToMembers" prefHeight="31.0" prefWidth="122.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Members">
                <font>
                   <Font size="20.0" />
                </font></Button>

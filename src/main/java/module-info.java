@@ -12,6 +12,7 @@ module com.exemple.platformeeducatif {
     requires com.almasb.fxgl.all;
     requires java.desktop;
     requires java.sql;
+    requires java.management;
 
     opens com.exemple.platformeeducatif to javafx.fxml;
     exports com.exemple.platformeeducatif;

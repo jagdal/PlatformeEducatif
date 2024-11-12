@@ -1,12 +1,18 @@
 package com.exemple.platformeeducatif;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import static javax.management.remote.JMXConnectorFactory.connect;
 
 public class UserDAO {
-
+    private Connection connect() throws SQLException {
+        String url = "jdbc:mysql://localhost:3306/login"; // Remplacez avec votre URL de base de données
+        String user = "root"; // Nom d'utilisateur de la base de données
+        String password = ""; // Mot de passe de la base de données
+        return DriverManager.getConnection(url, user, password);
+    }
     public boolean signUp(String name, String username, String email, String password) {
         String query = "INSERT INTO user (name, username, email, password) VALUES (?, ?, ?, ?)";
 
@@ -45,6 +51,30 @@ public class UserDAO {
             e.printStackTrace();
             return false;
         }
+    }
+
+
+    public List<User> getAllUsers() {
+        List<User> users = new ArrayList<>();
+        String query = "SELECT username, name, email FROM user"; // Requête sans le mot de passe
+
+        try (Connection conn = connect();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(query)) {
+
+            while (rs.next()) {
+                String username = rs.getString("username");
+                String name = rs.getString("name");
+                String email = rs.getString("email");
+
+                users.add(new User(username, name, email));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return users;
     }
 
 

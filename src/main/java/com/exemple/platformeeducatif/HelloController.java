@@ -83,6 +83,14 @@ import java.io.IOException;
          stage.setScene(scene);
          stage.show();
      }
+     public void siwtchToMembers(ActionEvent event) throws IOException {
+         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("member.fxml"));
+         Scene scene = new Scene(fxmlLoader.load());
+         Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
+         stage.setTitle("Members!");
+         stage.setScene(scene);
+         stage.show();
+     }
 
  }
 
