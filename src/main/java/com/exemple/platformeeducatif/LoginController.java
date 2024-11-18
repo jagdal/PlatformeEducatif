@@ -1,4 +1,5 @@
 package com.exemple.platformeeducatif;
+import com.exemple.platformeeducatif.BaseDeDonnes.UserDAO;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -17,7 +18,6 @@ public class LoginController {
     private Label error;
     @FXML
     private PasswordField passwordField;
-
     @FXML
     private Button loginButton;
 
@@ -59,6 +59,14 @@ public class LoginController {
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
         stage.setTitle("SignUp!");
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void siwtchToAdmin(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("admin.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
+        stage.setTitle("Admins!");
         stage.setScene(scene);
         stage.show();
     }

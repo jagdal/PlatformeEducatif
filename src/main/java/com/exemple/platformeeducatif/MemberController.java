@@ -1,5 +1,7 @@
 package com.exemple.platformeeducatif;
 
+import com.exemple.platformeeducatif.BaseDeDonnes.User;
+import com.exemple.platformeeducatif.BaseDeDonnes.UserDAO;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;

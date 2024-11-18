@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.Label?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1359.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemple.platformeeducatif.Causes.ShowCause">
+
+        <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="211.0" prefHeight="850.0" prefWidth="1150.0" BorderPane.alignment="CENTER">
+            <content>
+                <TilePane fx:id="causeList" prefHeight="847.0" prefWidth="965.0">
+            <children>
+                <AnchorPane layoutX="660.0" layoutY="489.0" prefHeight="250.0" prefWidth="274.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="112.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                            </image>
+                        </ImageView>
+                        <Label layoutX="30.0" layoutY="13.0" text="Montée" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="53.0" layoutY="63.0" text="Eaux" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="38.0" text="des" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="660.0" layoutY="489.0" prefHeight="250.0" prefWidth="274.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="112.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                            </image>
+                        </ImageView>
+                        <Label layoutX="30.0" layoutY="13.0" text="Montée" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="53.0" layoutY="63.0" text="Eaux" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="38.0" text="des" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="660.0" layoutY="489.0" prefHeight="250.0" prefWidth="274.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="112.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+
+                            </image>
+                        </ImageView>
+                        <Label layoutX="30.0" layoutY="13.0" text="Montée" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="53.0" layoutY="63.0" text="Eaux" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="38.0" text="des" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false"  prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="660.0" layoutY="489.0" prefHeight="250.0" prefWidth="274.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="112.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+
+                            </image>
+                        </ImageView>
+                        <Label layoutX="30.0" layoutY="13.0" text="Montée" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="53.0" layoutY="63.0" text="Eaux" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="38.0" text="des" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false"  prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="660.0" layoutY="489.0" prefHeight="250.0" prefWidth="274.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="112.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+
+                        </ImageView>
+                        <Label layoutX="30.0" layoutY="13.0" text="Montée" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="53.0" layoutY="63.0" text="Eaux" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="38.0" text="des" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false"  prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="660.0" layoutY="489.0" prefHeight="250.0" prefWidth="274.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="112.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                            </image>
+                        </ImageView>
+                        <Label layoutX="30.0" layoutY="13.0" text="Montée" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="53.0" layoutY="63.0" text="Eaux" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="38.0" text="des" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="33.0" />
+                            </font>
+                        </Label>
+                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+
+
+            </children></TilePane>
+            </content>
+        </ScrollPane>
+      <!-- <Button mnemonicParsing="false" onAction="#switchToAdmin" text="back to admin page" />-->
+       <AnchorPane prefHeight="800.0" prefWidth="209.0" style="-fx-background-color: fafafa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+           <children>
+               <ImageView fitHeight="30.0" fitWidth="36.0" layoutX="15.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@icons/group-chat.png" />
+                   </image>
+               </ImageView>
+               <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="16.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@icons/cause.png" />
+                   </image>
+               </ImageView>
+               <ImageView fitHeight="22.0" fitWidth="32.0" layoutX="16.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@icons/solutions.png" />
+                   </image>
+               </ImageView>
+               <ImageView fitHeight="22.0" fitWidth="32.0" layoutX="20.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@icons/quiz.png" />
+                   </image>
+               </ImageView>
+               <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="16.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@icons/dashboard.png" />
+                   </image>
+               </ImageView>
+               <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="18.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@icons/streaming.png" />
+                   </image>
+               </ImageView>
+               <ImageView fitHeight="108.0" fitWidth="207.0" layoutX="10.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@image/logo.png" />
+                   </image>
+               </ImageView>
+               <Button fx:id="logout" layoutX="55.0" layoutY="657.0" mnemonicParsing="false" onAction="#siwtchToSignUp" prefHeight="31.0" prefWidth="111.0" styleClass="logout" stylesheets="@style.css" text="logout" underline="true" />
+               <Button fx:id="causes" layoutX="50.0" layoutY="216.0" mnemonicParsing="false" onAction="#switchToCause" prefHeight="39.0" prefWidth="111.0" style="-fx-background-color: #57baab; -fx-cursor: hand;" text="Causes" textFill="WHITE">
+                   <font>
+                       <Font size="18.0" />
+                   </font>
+         </Button>
+               <Button fx:id="solution" layoutX="26.0" layoutY="257.0" mnemonicParsing="false" onAction="#switchToSolutions" prefHeight="32.0" prefWidth="129.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Solution">
+                   <font>
+                       <Font size="20.0" />
+                   </font>
+         </Button>
+               <Button fx:id="courses" layoutX="31.0" layoutY="307.0" mnemonicParsing="false" onAction="#viewCourse" prefHeight="31.0" prefWidth="122.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Courses">
+                   <font>
+                       <Font size="20.0" />
+                   </font>
+         </Button>
+               <Button fx:id="Quiz" layoutX="16.0" layoutY="352.0" mnemonicParsing="false" onAction="#switchToQuiz" prefHeight="31.0" prefWidth="122.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Quiz">
+                   <font>
+                       <Font size="20.0" />
+                   </font>
+         </Button>
+               <Button fx:id="Group" layoutX="9.0" layoutY="400.0" mnemonicParsing="false" onAction="#siwtchToAdminLogin" prefHeight="31.0" prefWidth="163.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Admins">
+                   <font>
+                       <Font size="20.0" />
+                   </font>
+         </Button>
+         <Button layoutX="40.0" layoutY="166.0" mnemonicParsing="false" onAction="#switchToDashboard" prefHeight="43.0" prefWidth="129.0" style="-fx-background-color: none; -fx-cursor: hand;" text="Dashboard">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+           </children>
+       </AnchorPane>
+</AnchorPane>

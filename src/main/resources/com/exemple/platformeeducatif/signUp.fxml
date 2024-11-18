@@ -17,7 +17,7 @@
    <children>
       <AnchorPane layoutX="-4.0" layoutY="-2.0" prefHeight="857.0" prefWidth="550.0" style="-fx-background-color: #57baab;" AnchorPane.bottomAnchor="-5.0" AnchorPane.leftAnchor="-4.0" AnchorPane.topAnchor="-2.0">
          <children>
-            <ImageView fitHeight="638.0" fitWidth="368.0" layoutX="60.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="638.0" fitWidth="368.0" layoutX="60.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0">
                <image>
                   <Image url="@image/handBack.png" />
                </image>

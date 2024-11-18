@@ -55,14 +55,7 @@ import java.io.IOException;
          stage.show();
      }
 
-     //switch back to page d'acceuil
-     public void backOfficielPage(ActionEvent event) throws IOException {
-         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-         Scene scene = new Scene(fxmlLoader.load());
-         Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
-         stage.setScene(scene);
-         stage.show();
-     }
+
 
      //switch to signUp page
      public void siwtchToSignUp(ActionEvent event) throws IOException {
@@ -92,5 +85,46 @@ import java.io.IOException;
          stage.show();
      }
 
+     public void siwtchToAdminLogin(ActionEvent event) throws IOException {
+         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("adminLogin.fxml"));
+         Scene scene = new Scene(fxmlLoader.load());
+         Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
+         stage.setTitle("Admins!");
+         stage.setScene(scene);
+         stage.show();
+     }
+
+     public void switchToCause(ActionEvent event) throws IOException {
+         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("cause.fxml"));
+         Scene scene = new Scene(fxmlLoader.load());
+         Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
+         stage.setTitle("Causes!");
+         stage.setScene(scene);
+         stage.show();
+     }
+     public void switchToSolutions(ActionEvent event) throws IOException {
+         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("sol.fxml"));
+         Scene scene = new Scene(fxmlLoader.load());
+         Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
+         stage.setTitle("Solutions!");
+         stage.setScene(scene);
+         stage.show();
+     }
+     public void switchToQuiz(ActionEvent event) throws IOException {
+         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("quiz.fxml"));
+         Scene scene = new Scene(fxmlLoader.load());
+         Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
+         stage.setTitle("Quiz!");
+         stage.setScene(scene);
+         stage.show();
+     }
+     public void switchToDashboard(ActionEvent event) throws IOException {
+         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+         Scene scene = new Scene(fxmlLoader.load());
+         Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
+         stage.setTitle("Dashboard!");
+         stage.setScene(scene);
+         stage.show();
+     }
  }
 
