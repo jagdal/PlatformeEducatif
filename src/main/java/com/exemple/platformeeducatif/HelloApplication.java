@@ -11,10 +11,10 @@ import java.util.Objects;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("quiz.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
-        stage.setTitle("Eucation Platforme!");
+        stage.setTitle("Platforme Educatif!");
         stage.setScene(scene);
         stage.show();
     }

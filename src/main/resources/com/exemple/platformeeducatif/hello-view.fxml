@@ -305,5 +305,7 @@
          </font>
       </Label>
       <Label layoutX="1237.0" layoutY="55.0" text="\@username" textFill="#a6a4a4" />
+      <Label layoutX="792.0" layoutY="48.0" text="inbox" />
+
    </children>
 </AnchorPane>

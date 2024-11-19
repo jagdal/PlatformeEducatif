@@ -13,7 +13,6 @@ import javafx.scene.layout.TilePane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
 public class ShowCause extends HelloController {
@@ -53,12 +52,10 @@ public class ShowCause extends HelloController {
         VBox textSection = new VBox(5);
 
         Text titleText = new Text(title);
-        titleText.setStyle("-fx-font-size: 18px; -fx-font-weight: bold;");
+        titleText.setStyle("-fx-font-size: 22px; -fx-font-weight: bold;");
 
         Text descriptionText = new Text(description);
         descriptionText.setStyle("-fx-font-size: 14px;");
-
-
 
         textSection.getChildren().addAll(titleText, descriptionText);
         card.getChildren().addAll(cardImageView, textSection);

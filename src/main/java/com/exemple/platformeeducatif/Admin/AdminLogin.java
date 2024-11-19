@@ -34,7 +34,7 @@ public class AdminLogin {
                 Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 stage.setScene(scene);
                 stage.show();
-            } catch (IOException e) {
+            }catch (IOException e) {
                 e.printStackTrace();
                 errorLabel.setText("Failed to load admin page!");
             }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -9,12 +10,11 @@
 <?import javafx.scene.layout.TilePane?>
 <?import javafx.scene.text.Font?>
 
-<?import javafx.scene.control.Label?>
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1359.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemple.platformeeducatif.Causes.ShowCause">
 
         <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="211.0" prefHeight="850.0" prefWidth="1150.0" BorderPane.alignment="CENTER">
             <content>
-                <TilePane fx:id="causeList" prefHeight="847.0" prefWidth="965.0">
+                <TilePane fx:id="causeList" prefHeight="691.0" prefWidth="1138.0">
             <children>
                 <AnchorPane layoutX="660.0" layoutY="489.0" prefHeight="250.0" prefWidth="274.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
                     <children>
@@ -94,7 +94,7 @@
                                 <Font name="System Bold" size="33.0" />
                             </font>
                         </Label>
-                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false"  prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
+                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
                             <font>
                                 <Font size="15.0" />
                             </font>
@@ -123,7 +123,7 @@
                                 <Font name="System Bold" size="33.0" />
                             </font>
                         </Label>
-                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false"  prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
+                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
                             <font>
                                 <Font size="15.0" />
                             </font>
@@ -150,7 +150,7 @@
                                 <Font name="System Bold" size="33.0" />
                             </font>
                         </Label>
-                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false"  prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
+                        <Button layoutX="21.0" layoutY="188.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="64.0" style="-fx-background-color: #57baab; -fx-border-color: black; -fx-border-radius: 20;" text="voir" textAlignment="CENTER">
                             <font>
                                 <Font size="15.0" />
                             </font>
