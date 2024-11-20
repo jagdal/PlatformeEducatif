@@ -1,25 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
 <?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemple.platformeeducatif.Quiz.QuizController">
+<AnchorPane prefHeight="850.0" prefWidth="1359.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemple.platformeeducatif.Quiz.QuizController">
     <children>
-        <Label fx:id="questionLabel" layoutX="158.0" layoutY="29.0" text="Question ici" />
-        <VBox layoutX="151.0" layoutY="106.0" prefHeight="294.0" prefWidth="373.0" spacing="5">
-            <RadioButton fx:id="option1" text="Option 1">
-                <toggleGroup>
+      <AnchorPane layoutX="169.0" layoutY="44.0" prefHeight="609.0" prefWidth="1111.0" style="-fx-background-color: fbfbfb;">
+         <children>
+              <Label fx:id="questionLabel" layoutX="151.0" layoutY="147.0" prefHeight="38.0" prefWidth="958.0" text="Question ici">
+               <font>
+                  <Font name="AF_Tabook Normal" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="questionNumber" layoutX="154.0" layoutY="95.0" prefHeight="42.0" prefWidth="120.0" style="-fx-opacity: 80%;" text="Question 1">
+               <font>
+                  <Font name="AF_Tabook Normal" size="21.0" />
+               </font>
+            </Label>
+            <Slider fx:id="slider" layoutX="164.0" layoutY="24.0" majorTickUnit="1.0" max="10.0" prefHeight="45.0" prefWidth="829.0" showTickLabels="true">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Slider>
+         </children></AnchorPane>
+      <AnchorPane layoutX="312.0" layoutY="217.0" prefHeight="409.0" prefWidth="945.0">
+         <children>
+              <VBox layoutX="14.0" layoutY="59.0" prefHeight="307.0" prefWidth="929.0" spacing="5">
+                  <RadioButton fx:id="option1" focusTraversable="false" lineSpacing="20" prefHeight="44.0" prefWidth="815.0" text="Option 1">
+                      <toggleGroup>
 
-                    <ToggleGroup fx:id="optionsGroup" />
-                </toggleGroup></RadioButton>
-            <RadioButton fx:id="option2" text="Option 2" toggleGroup="$optionsGroup" />
-            <RadioButton fx:id="option3" prefHeight="30.0" prefWidth="107.0" text="Option 3" toggleGroup="$optionsGroup" />
-            <RadioButton fx:id="option4" prefHeight="30.0" prefWidth="141.0" text="Option 4" toggleGroup="$optionsGroup" />
-            <Button onAction="#handleSubmitAction" prefHeight="31.0" prefWidth="114.0" text="Soumettre" />
-        </VBox>
+                                      <ToggleGroup fx:id="optionsGroup" />
+                      </toggleGroup>
+                  <graphic>
+                     <AnchorPane prefHeight="54.0" prefWidth="267.0" />
+                  </graphic>
+               </RadioButton>
+               <AnchorPane layoutX="10.0" layoutY="115.0" prefHeight="30.0" prefWidth="768.0" />
+                  <RadioButton fx:id="option2" focusTraversable="false" prefHeight="49.0" prefWidth="815.0" text="Option 2" toggleGroup="$optionsGroup">
+                  <graphic>
+                     <AnchorPane prefHeight="45.0" prefWidth="267.0" />
+                  </graphic>
+               </RadioButton>
+               <AnchorPane prefHeight="23.0" prefWidth="768.0" />
+                  <RadioButton fx:id="option3" focusTraversable="false" prefHeight="48.0" prefWidth="815.0" text="Option 3" toggleGroup="$optionsGroup">
+                  <graphic>
+                     <AnchorPane prefHeight="45.0" prefWidth="267.0" />
+                  </graphic>
+               </RadioButton>
+               <AnchorPane layoutX="10.0" layoutY="118.0" prefHeight="25.0" prefWidth="768.0" />
+                  <RadioButton fx:id="option4" focusTraversable="false" prefHeight="47.0" prefWidth="815.0" text="Option 4" toggleGroup="$optionsGroup">
+                  <graphic>
+                     <AnchorPane prefHeight="49.0" prefWidth="267.0" />
+                  </graphic>
+               </RadioButton>
+              </VBox>
+         </children>
+      </AnchorPane>
+         <Button id="buttonQuizSuivanat" layoutX="754.0" layoutY="723.0" onAction="#handleSubmitAction" prefHeight="42.0" prefWidth="146.0" style="" text="suivant">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="buttonQuizPrecedent" layoutX="366.0" layoutY="724.0" onAction="#handlePreviousAction" prefHeight="42.0" prefWidth="146.0" text="Precedent" textFill="#b7b7b7">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <FontAwesomeIcon fill="WHITE" glyphName="CHEVRON_LEFT" layoutX="386.0" layoutY="752.0" selectionFill="#b7b7b7">
+         <font>
+            <Font size="18.0" />
+         </font></FontAwesomeIcon>
+      <FontAwesomeIcon fill="WHITE" glyphName="CHEVRON_RIGHT" layoutX="867.0" layoutY="753.0" />
+      <Label fx:id="correctAnswer" layoutX="409.0" layoutY="653.0" prefHeight="45.0" prefWidth="829.0" textFill="#44d268">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
     </children>
 </AnchorPane>
