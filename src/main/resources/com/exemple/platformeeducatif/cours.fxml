@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -9,120 +10,138 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1359.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="847.0" prefWidth="1359.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemple.platformeeducatif.HelloController">
    <children>
       <VBox prefHeight="850.0" prefWidth="232.0" style="-fx-background-color: white;" />
       <AnchorPane prefHeight="850.0" prefWidth="1134.0">
          <children>
-            <HBox prefHeight="98.0" prefWidth="1131.0" style="-fx-background-color: red;" />
-            <HBox layoutX="44.0" layoutY="108.0" prefHeight="210.0" prefWidth="1025.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
+            <HBox layoutY="134.0" prefHeight="98.0" prefWidth="1064.0">
                <children>
-                  <AnchorPane prefHeight="182.0" prefWidth="1025.0">
+                  <AnchorPane prefHeight="401.0" prefWidth="1069.0">
                      <children>
-                        <Label layoutX="381.0" layoutY="43.0" prefHeight="35.0" prefWidth="352.0" text=" Les Coures" textFill="WHITE">
-                           <font>
-                              <Font name="System Bold" size="36.0" />
-                           </font>
-                        </Label>
-                        <ImageView fitHeight="274.0" fitWidth="279.0" layoutX="56.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@image/a.png" />
-                           </image>
-                        </ImageView>
-                        <Pane fx:id="div1" layoutX="372.0" layoutY="75.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: #0081a7; -fx-background-radius: 10;">
+                        <HBox layoutX="44.0" layoutY="-85.0" prefHeight="290.0" prefWidth="1025.0" style="-fx-background-color: #57baab; -fx-background-radius: 20;">
                            <children>
-                              <Label layoutX="38.0" layoutY="148.0" prefHeight="32.0" prefWidth="255.0" text="Changement climatique" textFill="WHITE">
-                                 <font>
-                                    <Font name="System Bold" size="22.0" />
-                                 </font>
-                              </Label>
-                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="80.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@image/d.png" />
-                                 </image>
-                              </ImageView>
+                              <AnchorPane prefHeight="237.0" prefWidth="1025.0">
+                                 <children>
+                                    <ImageView fitHeight="326.0" fitWidth="249.0" layoutX="701.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@image/m.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="81.0" layoutY="65.0" prefHeight="64.0" prefWidth="449.0" style="-fx-text-fill: while;" text="Apprendre Les Cours" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="34.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="132.0" layoutY="130.0" style="-fx-text-fill: white;" text="Les Risques Environnementaux" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="30.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="306.0" layoutY="191.0" style="-fx-text-fill: white;" text="causes,solutions ..">
+                                       <font>
+                                          <Font size="25.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
                            </children>
-                        </Pane>
-                     </children>
-                  </AnchorPane>
-               </children>
-            </HBox>
-            <HBox layoutX="37.0" layoutY="410.0" prefHeight="431.0" prefWidth="1039.0">
+                        </HBox>
+                     </children></AnchorPane>
+               </children></HBox>
+            <HBox layoutX="37.0" layoutY="346.0" prefHeight="484.0" prefWidth="1039.0">
                <children>
-                  <AnchorPane prefHeight="402.0" prefWidth="1115.0">
+                  <AnchorPane prefHeight="438.0" prefWidth="1039.0">
                      <children>
-                        <Pane layoutX="344.0" layoutY="14.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-background-radius: 10;">
+                        <Pane layoutX="355.0" layoutY="33.0" prefHeight="210.0" prefWidth="330.0" style="-fx-background-color: #50C878; -fx-background-radius: 20;">
                            <children>
-                              <Label layoutX="71.0" layoutY="148.0" prefHeight="32.0" prefWidth="216.0" text="pollution marine" textFill="WHITE">
+                              <Label layoutX="73.0" layoutY="132.0" prefHeight="32.0" prefWidth="216.0" text="pollution marine" textFill="WHITE">
                                  <font>
                                     <Font name="System Bold" size="22.0" />
                                  </font>
                               </Label>
-                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="90.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="79.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@image/e.png" />
                                  </image>
                               </ImageView>
+                              <Button layoutX="138.0" layoutY="166.0" mnemonicParsing="false" style="-fx-background-radius: 10;" text="Voir" />
                            </children>
                         </Pane>
-                        <Pane layoutX="685.0" layoutY="14.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-background-radius: 10;">
+                        <Pane layoutX="703.0" layoutY="33.0" prefHeight="210.0" prefWidth="330.0" style="-fx-background-color: #50C878; -fx-background-radius: 20;">
                            <children>
-                              <Label layoutX="57.0" layoutY="148.0" prefHeight="32.0" prefWidth="216.0" text="L'érosion des rivages" textFill="WHITE">
+                              <Label layoutX="57.0" layoutY="134.0" prefHeight="32.0" prefWidth="216.0" text="L'érosion des rivages" textFill="WHITE">
                                  <font>
                                     <Font name="System Bold" size="22.0" />
                                  </font>
                               </Label>
-                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="90.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="79.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@image/f.png" />
                                  </image>
                               </ImageView>
+                              <Button layoutX="138.0" layoutY="166.0" mnemonicParsing="false" style="-fx-background-radius: 10;" text="Voir" />
                            </children>
                         </Pane>
-                        <Pane fx:id="div3" layoutY="223.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-background-radius: 10;" />
-                        <Pane layoutX="344.0" layoutY="223.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-background-radius: 10;" styleClass="div2">
+                        <Pane fx:id="div3" layoutX="7.0" layoutY="267.0" prefHeight="210.0" prefWidth="330.0" style="-fx-background-color: #50C878; -fx-background-radius: 20;">
                            <children>
-                              <Label layoutX="50.0" layoutY="148.0" text="Tempêtes et ouragans" textFill="WHITE">
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="90.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/t.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="50.0" layoutY="132.0" text="Tempêtes et ouragans" textFill="WHITE">
                                  <font>
                                     <Font name="System Bold" size="22.0" />
                                  </font>
                               </Label>
-                           </children>
-                        </Pane>
-                        <Pane layoutX="685.0" layoutY="223.0" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: gray; -fx-background-radius: 10;">
+                              <Button layoutX="138.0" layoutY="166.0" mnemonicParsing="false" style="-fx-background-radius: 10;" text="Voir" />
+                           </children></Pane>
+                        <Pane layoutX="355.0" layoutY="267.0" prefHeight="210.0" prefWidth="330.0" style="-fx-background-color: #50C878; -fx-background-radius: 20;" styleClass="div2">
                            <children>
-                              <Label layoutX="76.0" layoutY="148.0" prefHeight="17.0" prefWidth="179.0" text="Montée des eaux" textFill="WHITE">
+                              <Label layoutX="68.0" layoutY="132.0" prefHeight="17.0" prefWidth="195.0" text="Séismes et volcans" textFill="WHITE">
                                  <font>
                                     <Font name="System Bold" size="22.0" />
                                  </font>
                               </Label>
-                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="91.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fitHeight="187.0" fitWidth="274.0" layoutX="40.0" layoutY="-30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/h.png" />
+                                 </image>
+                              </ImageView>
+                              <Button layoutX="138.0" layoutY="166.0" mnemonicParsing="false" style="-fx-background-radius: 10;" text="Voir" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="703.0" layoutY="267.0" prefHeight="210.0" prefWidth="330.0" style="-fx-background-color: #50C878; -fx-background-radius: 20;">
+                           <children>
+                              <Label layoutX="75.0" layoutY="134.0" prefHeight="17.0" prefWidth="179.0" text="Montée des eaux" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="22.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@image/i.png" />
                                  </image>
                               </ImageView>
+                              <Button layoutX="138.0" layoutY="166.0" mnemonicParsing="false" style="-fx-background-radius: 10;" text="Voir" />
                            </children>
                         </Pane>
-                        <ImageView fitHeight="194.0" fitWidth="375.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@image/n.jpg" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="87.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@image/t.png" />
-                           </image>
-                        </ImageView>
-                        <Label layoutX="115.0" layoutY="169.0" prefHeight="17.0" prefWidth="195.0" text="Séismes et volcans" textFill="WHITE">
-                           <font>
-                              <Font name="System Bold" size="22.0" />
-                           </font>
-                        </Label>
-                        <ImageView fitHeight="187.0" fitWidth="274.0" layoutX="211.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@image/h.png" />
-                           </image>
-                        </ImageView>
+                        <Pane fx:id="div1" layoutX="7.0" layoutY="33.0" prefHeight="210.0" prefWidth="330.0" style="-fx-background-color: #50C878; -fx-background-radius: 20;">
+                           <children>
+                              <Label layoutX="38.0" layoutY="134.0" prefHeight="32.0" prefWidth="255.0" text="Changement climatique" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="22.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="79.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/d.png" />
+                                 </image>
+                              </ImageView>
+                              <Button layoutX="138.0" layoutY="166.0" mnemonicParsing="false" style="-fx-background-radius: 10;" text="Voir" />
+                           </children>
+                        </Pane>
                      </children>
                   </AnchorPane>
                </children>
